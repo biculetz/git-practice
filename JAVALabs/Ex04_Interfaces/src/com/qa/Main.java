@@ -12,6 +12,13 @@ public class Main {
         Circle c2 = new Circle("circle2", "blue",10,10,5);
       System.out.println(c);
       System.out.println(c2);
+
+      System.out.println("Circle location before move "  + c.getCurentLocation());
+      c.move(10.5,4.3);
+      System.out.println("Circle location after move "  + c.getCurentLocation());
+
+
+
         System.out.println(c + ", CentrePoint is: " +
                 c.getCentrePoint() + ", Area is: " + c.getArea());
         System.out.println(c2 + ", CentrePoint is: " +
